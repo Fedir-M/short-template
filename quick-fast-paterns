@@ -1,0 +1,30 @@
+======= PATERN .visually-hidden _001 =======
+.visually-hidden:not(:focus):not(:active) {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+======= PATERN .visually-hidden _002 =======
+.visually-hidden {
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+======= PATERN .visually-hidden _003 =======
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+				
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
